@@ -80,6 +80,7 @@ let arr_status=Array.from(document.querySelector('.status'))
 						</div>
 						<div class="">
 							<span style="font-size: 8px;" class="btn-xs btn-primary py-1 px-2 rounded">${data[i].type}</span>
+                            <span style="font-size: 8px;" class="btn-xs btn-primary py-1 px-2 rounded">${data[i].priority}</span>
 						</div>
 					</div>
 				    </button>
@@ -111,6 +112,7 @@ let arr_status=Array.from(document.querySelector('.status'))
                             </div>
                             <div class="">
                                 <span style="font-size: 8px;" class="btn-xs btn-primary py-1 px-2 rounded">${data[i].type}</span>
+                                <span style="font-size: 8px;" class="btn-xs btn-primary py-1 px-2 rounded">${data[i].priority}</span>
                             </div>
                         </div>
                     </button>
@@ -141,6 +143,7 @@ let arr_status=Array.from(document.querySelector('.status'))
                             </div>
                             <div class="">
                                 <span style="font-size: 8px;" class="btn-xs btn-primary py-1 px-2 rounded">${data[i].type}</span>
+                                <span style="font-size: 8px;" class="btn-xs btn-primary py-1 px-2 rounded">${data[i].priority}</span>
                             </div>
                         </div>
                     </button>
