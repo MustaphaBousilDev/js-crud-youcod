@@ -188,9 +188,10 @@ let arr_status=Array.from(document.querySelector('.status'))
                             <label for="message-text" class="col-form-label">Preority:</label>
                             <select id="preority-edit" class="form-select preority-edit" aria-label="Default select example">
                                 <option value="please">Please Select</option>
-                                <option ${isNaN(n) ? '' : (data[n].priority=='one' ? 'selected' : '')} value="one">One</option>
-                                <option ${isNaN(n) ? '' : (data[n].priority=='two' ? 'selected' : '')}  value="two">Two</option>
-                                <option ${isNaN(n) ? '' : (data[n].priority=='three' ? 'selected' : '')}  value="three">Three</option>
+                                <option ${isNaN(n) ? '' : (data[n].priority=='heigh' ? 'selected' : '')} value="heigh">Heigh</option>
+                                <option ${isNaN(n) ? '' : (data[n].priority=='medium' ? 'selected' : '')}  value="medium">Medium</option>
+                                <option ${isNaN(n) ? '' : (data[n].priority=='low' ? 'selected' : '')}  value="low">Low</option>
+                                <option ${isNaN(n) ? '' : (data[n].priority=='ctitical' ? 'selected' : '')}  value="critical">Critical</option>
                             </select>
                           </div>
                           <div class="mb-3">
